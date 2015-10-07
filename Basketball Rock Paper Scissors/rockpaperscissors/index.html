@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel='stylesheet' type='text/css' href='reset.css'>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <script type='text/javascript' src = 'app.js'></script>
+</head>
+<body>
+  <div id='game'>
+    <div id='top'>
+      <div id='playerMove'>
+        <img src="./paper.png" style="display: none;" id="paperImage"/>
+        <img src="./rock.png" style="display: none;" id="rockImage"/>
+        <img src="./scissors.png" style="display: none;" id="scissorsImage"/>
+      </div>
+      <div id='computerMove'>
+        <img src="./paper.png" style="display: none;" id="paperImage2"/>
+        <img src="./rock.png" style="display: none;" id="rockImage2"/>
+        <img src="./scissors.png" style="display: none;" id="scissorsImage2"/>
+      </div>
+
+    </div>
+    <div id='middle'>
+      <div id="player">
+        <div id="playerName"></div>
+        <div id='playerDisplay'>0</div>
+      </div>
+      <div id='winnerDisplay'>
+        <img src="./Heat1.gif" style="display: none;" id="heat1"/>
+        <img src="./Spurs2.gif" style="display: none;" id="spurs2"/>
+        <img src="./heatCelebration.gif" style="display: none;" id="heatCelebration"/>
+        <img src="./spursCelebration.gif" style="display: none;" id="spursCelebration"/>
+        <img src="./tie.gif" style="display: none;" id="spursTie"/>
+
+
+      </div>
+      <div id="computer">
+        <div id="computerName"></div>
+        <div id='computerDisplay'>0</div>
+      </div>
+    </div>
+    <div id='bottom'>
+      <ul id='icons'>
+        <li id='scissors'></li>
+        <li id='paper'></li>
+        <li id='rock'></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
